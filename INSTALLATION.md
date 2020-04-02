@@ -1,90 +1,27 @@
-### Contents
+# Installation Guide
 
-* [Introduction](#introduction)
-* [Carters Addon Pack Install](#carters-addon-pack-installation)
- * [Steam Workshop](#steam-workshop)
- * [GitHub](#github)
-* [Wiremod Install](#wiremod-installation)
- * [Workshop](#wiremod-steam-workshop)
- * [GitHub](#wiremod-github)
-* [Spacebuild](#spacebuild)
- * [Workshop](#spacebuild-steam-workshop)
- * [GitHub](#spacebuild-github)
-* [Sidenotes](#sidenotes)
+As this is a fork, the [original installation guide](https://github.com/RafaelDeJongh/cap/blob/master/INSTALLATION.md) doesn't apply. Instead, please follow the new guide below.
 
-## Introduction
+## Stargate
 
-After the great summer of 2013 we brought CAP slowly but in its entirety to the Steam Workshop! Now you can profit from automatic updates by simply subscribing to the collection.
+1. Download the [latest release](https://github.com/conspiracy-servers/stargate/releases/latest/download/stargate.zip) of the addon (please don't clone or download a ZIP of the repository as changes made directly to the repository can unstable).
+2. Open up the zipped archive using your preferred archive utility (WinRAR, 7-Zip, etc)
+3. Create a new folder inside your Garry's Mod addons folder (check the [sidenotes](#sidenotes) for where this folder is on your system).
+4. Extract the contents of the zipped archive into the folder you just created.
 
-## Carters Addon Pack Installation
+Once these steps are completed, you can close your archiving utility and delete the `stargate.zip` file. If you haven't installed [Wiremod](#wiremod) or [Spacebuild](#spacebuild), please proceed to those steps below.
 
-### Steam Workshop
+## Wiremod
 
-The only thing you have to do with the Steam Workshop Version of the Carter Addons Pack is go to the Steam Workshop Collection which can be found here: [filedetails/?id=180077636](http://steamcommunity.com/sharedfiles/filedetails/?id=180077636)
-
-Then simply press the button labeled as "Subscribe to All" located under the description to subscribe to the entire collection.
-
-You now have successfully installed the Carter Addons Pack. But do not get too hasty as you still require the Wiremod addon. More information about this addon can be found in the Wiremod section below.
-
-**Side Note:** For some Linux Distro users the fonts via Workshop still does not work, so for those they still require to download and install them system-wide manually. These fonts can be downloaded from: [https://github.com/RafaelDeJongh/cap_fonts](https://github.com/RafaelDeJongh/cap_fonts)
-
-### GitHub
-
-To download the Carter Addon Pack via GitHub, you will first need to install the GitHub Native Application. You can download this for Windows here: [windows.github.com](https://windows.github.com)
-
-An alternative would be to download the whole repository as a .zip file from GitHub, but we do not recommend this as it is easily corrupted while downloading and is hard to keep updated (you will have to re-download the whole package every time there is a new update). However if you do, you must extract the .zip file(s) and then place them in your addons folder.
-
-**CAP ([https://github.com/RafaelDeJongh/cap](https://github.com/RafaelDeJongh/cap))**
-
-**CAP_Resources ([https://github.com/RafaelDeJongh/cap_resource](https://github.com/RafaelDeJongh/cap_resource))**
-
-After downloading it via the GitHub Application, copy and paste these folders into your addons folder which is located in `"Steam\steamapps\**COMMON**\GarrysMod\garrysmod\addons"`.
-
-You can then change the directory of the repository in the GitHub client under options and click the "sync" button every time there is an update which will synchronize the local files with the repository.
-
-Alternatively, you could change the directory of where you want GitHub to download the folders and files to. You could select your garrysmod addons folder before downloading so it will automatically be placed there when you hit the clone button without the need of manually moving the folders.
-
-## Wiremod Installation
-
-Wiremod is **REQUIRED** for this pack to function correctly, you can download it either via the Workshop or Github.
-
-### Wiremod Steam Workshop
-
-To download the Wiremod addon via the Workshop, simply click on the subscribe button from this workshop item: [filedetails/?id=160250458](http://steamcommunity.com/sharedfiles/filedetails/?id=160250458)
-
-### Wiremod GitHub
-
-To download the Wiremod Addon via GitHub, click on the url below where you will be linked to the Github Repository where you then can download the files as a .zip or clone it with the Native Github Application to your desktop.
-
-**WireMod: ([https://github.com/wiremod/wire](https://github.com/wiremod/wire))**
-
-For more information on how to use the Wiremod addon in combination with CAP please visit the Documentation section of our wiki: [Wiremod Information](wiremod/)
+The simplest way to install Wiremod is to subscribe to it on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=160250458). However, if you wish to have the latest updates then you should download the [latest version](https://github.com/wiremod/wire/releases/latest/) from GitHub, the installation is similar to [Stargate](#stargate).
 
 ## Spacebuild
 
-To make use of the energy system where entities such as the Stargates, Weapons and other entities that use power, provided by ZPM's and Naquadah generators, you require to have the Spacebuild Addon. You can download it by following the Steam Workshop or GitHub pages below.
-
-The two spacebuild packs consists of one being the pack that has the Life Support system and is required for energy usage and two the Spacebuild Enhancement Pack, a pack that adds the ability to build and wire up flyable ships. While the enhancement pack is not required for the energy system, we do recommend it, as most servers that make use of Spacebuild together with CAP, also make use of the Enhancement Pack.
-
-## Spacebuild Steam Workshop 
-
-To download the Spacebuild addon via the Workshop, simply click on the subscribe button from these workshop items:
-
-**Spacebuild: [filedetails/?id=693838486](http://steamcommunity.com/sharedfiles/filedetails/?id=693838486)**
-
-**Spacebuild Enhancement Pack: [filedetails/?id=695227522](http://steamcommunity.com/sharedfiles/filedetails/?id=695227522)**
-
-## Spacebuild Github
-
-To download the Spacebuild Addon via GitHub, click on the urls below where you will be linked to the Github Repository where you then can download the files as a .zip or clone it with the Native Github Application to your desktop.
-
-**Spacebuild: [https://github.com/SnakeSVx/spacebuild](https://github.com/SnakeSVx/spacebuild)**
-
-**Spacebuild Enhancement Pack: [https://github.com/SnakeSVx/sbep](https://github.com/SnakeSVx/sbep)**
+The simplest way to install Spacebuild is to subscribe to it on the [Steam Workshop](http://steamcommunity.com/sharedfiles/filedetails/?id=693838486). However, that version is known to be very out of date so it's **highly recommended** for you to download the [latest repository version](https://github.com/spacebuild/spacebuild/archive/master.zip) and install that similarly to how you installed [Stargate](#stargate).
 
 ## Sidenotes
-
-  * This addon NO LONGER REQUIRES the Avons Stargate Pack!
-  * The Group System Addon IS MERGED WITH CAP therefore it is **NOT REQUIRED**!
-  * If you do install either of the above mentioned addons then **THEY WILL CONFLICT**!
-  * This pack **WILL NOT** work on older versions of Garry's Mod!
+* The [CAP Resources](https://github.com/RafaelDeJongh/cap_resources) & [CAP Fonts](https://github.com/RafaelDeJongh/cap_fonts) addons are merged with this one, so there's no need to download them separately anymore.
+* If you want to have more fun with Spacebuild, you can install the Spacebuild Enhancement Pack ([Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=695227522), [GitHub](https://github.com/spacebuild/sbep)).
+* Wiremod is required for this addon to function correctly, however Spacebuild isn't.
+* The default Garry's Mod addons folder on Windows is `C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\addons`.
+* The default Garry's Mod addons folder on Linux is either `~/.local/Steam/steamapps/common/GarrysMod/garrysmod/addons`, or `~/.steam/steam/SteamApps/common/GarrysMod/garrysmod/addons` depending on your distro.
