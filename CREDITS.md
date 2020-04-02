@@ -1,11 +1,16 @@
 # Credits
 
+## This fork:
+* [viral32111](https://github.com/viral32111) - Created the fork.
+* [CryptAlchemy](https://github.com/CryptAlchemy) - 3 new alarm sounds ([#4](https://github.com/RafaelDeJongh/cap_resources/pull/4)).
+* [TheSkagraTwo](https://github.com/TheSkagraTwo) - Atlantis gate bug fixes ([#89](https://github.com/RafaelDeJongh/cap/pull/89)).
+
 ## Staff:
 
-* AlexALX - Coding, The Group System, Fixes, Mapping
+* [AlexALX](https://github.com/AlexALX) - Coding, The Group System, Fixes, Mapping
 * Locutus_1 - Sounds
 * Orrila - Wiki, site administration
-* Rafaël De Jongh - Texturing, Shaders, Modeling, Uv-mapping, (V)GUI, Site Administrating
+* [Rafaël De Jongh](https://github.com/RafaelDeJongh) - Texturing, Shaders, Modeling, Uv-mapping, (V)GUI, Site Administrating
 * Assassin21 - Code, Models
 * Iziraider - Models, Textures
 * Llapp - Code, SFX, Site Administrating
@@ -28,7 +33,7 @@
 * THE DOCTOR - Illustrator Detail, Supergate Event Horizon
 * Tiny - Models, Textures
 * Zsigmond.daniel - Universe Event Horizon, Models
-* viral32111 - Forked CAP
+
 
 ## Pre-CAP:
 
