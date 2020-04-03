@@ -23,7 +23,7 @@ if (StarGate==nil or StarGate.CheckModule==nil or not StarGate.CheckModule("entw
 AddCSLuaFile()
 
 ENT.Sounds = {
-	Release = Sound("horizon/horizon_missle_release cap.wav"),
+	Release = Sound("horizon/horizon_missle_release_cap.wav"),
 	LaunchSmall = Sound("horizon/horizon_missle_smallrockets.wav"),
 	Fly = Sound("horizon/horizon_missle_fly.wav"),
 }
