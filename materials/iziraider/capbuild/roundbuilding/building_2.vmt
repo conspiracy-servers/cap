@@ -1,6 +1,6 @@
 "vertexlitgeneric" 
 {
-    	"$basetexture" "Iziraider/capbuild/roundbuilding/building 2"
+    	"$basetexture" "Iziraider/capbuild/roundbuilding/building_2"
 	"$bumpmap"    "Iziraider/capbuild/roundbuilding/building2_normal"
 	"$normalmapalphaenvmapmask" "1"
 	"$normalmapalphaphongmask"    "1"
