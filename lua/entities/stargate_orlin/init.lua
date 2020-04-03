@@ -17,7 +17,7 @@ ENT.Models = {
 }
 -- Sounds
 ENT.Sounds = {
-	Gate=Sound("Stargate Orlin.wav"),
+	Gate=Sound("stargate_orlin.wav"),
 	Ring=Sound("stargate/universe/gate_roll.mp3"),
 	Open=Sound("stargate/universe/gate_open.mp3"),
 	Travel=Sound("stargate/gate_travel.mp3"),
