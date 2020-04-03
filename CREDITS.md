@@ -1,72 +1,157 @@
 # Credits
 
-## This fork:
-* [viral32111](https://github.com/viral32111) - Created the fork.
-* [CryptAlchemy](https://github.com/CryptAlchemy) - 3 new alarm sounds ([#4](https://github.com/RafaelDeJongh/cap_resources/pull/4)).
-* [TheSkagraTwo](https://github.com/TheSkagraTwo) - Atlantis gate bug fixes ([#89](https://github.com/RafaelDeJongh/cap/pull/89)).
-
-## Staff:
-
-* [AlexALX](https://github.com/AlexALX) - Coding, The Group System, Fixes, Mapping
-* Locutus_1 - Sounds
-* Orrila - Wiki, site administration
-* [Rafaël De Jongh](https://github.com/RafaelDeJongh) - Texturing, Shaders, Modeling, Uv-mapping, (V)GUI, Site Administrating
-* Assassin21 - Code, Models
-* Iziraider - Models, Textures
-* Llapp - Code, SFX, Site Administrating
-* Madman07 - Code, Models, Uv-mapping
-* RononDex - Code "Ships and Model Clipping"
-
-## Contributions:
-
-* Art Of War - P90 SWEP, Wraith Weapons
-* Blazemann - Code
-* fdinasty - VGUI "Concept HUDS, SGA Glyphs"
-* Gmod4phun - Atlantis Door Frame
-* Itbankrock - P90 World Model
-* Lotus006 - Facepunch Forum Help
-* MarkJaw - Modeling, Uv-mapping, Texturing
-* Pac_187 - Texture Help/Base Textures
-* ProgSys - Textures, Models
-* Remus - TAC Compile
-* Strelok - P90 Sounds
-* THE DOCTOR - Illustrator Detail, Supergate Event Horizon
-* Tiny - Models, Textures
-* Zsigmond.daniel - Universe Event Horizon, Models
-
-
-## Pre-CAP:
-
-* aVoN - base codes of DHD, gates, ring panels, vehicles, bullets, tracers and much more
-* BlackJack - help in the Facepunch thread
-* BlackMac - help in the Facepunch thread
-* Brophis - event horizon close texture
-* Catdaemon - Base code for transport Rings and their Panels and wraith harvester
-* Cebt - Tollana Gates, Power Node
-* Col Sheppard - sounds
-* Dav0r - first Stargate models
-* DrFattyJr - Overloader, asuran beam, dakara, naquada bomb, ori cannon, personal shield and more code.
-* Flyboi - help in Facepunch thread
-* Ice D Angel - help in fp thread
-* Jeremy - help in the Facepunch thread
-* jdm12989 - original ZPM SENT
-* JinTo - Custom Physic Library, inspired aVon with his gmod9 stargate
-* KillerRabbit - first Stargate models
-* Lantis - new stargate sg1/infinity/movie sounds
-* LEETNOOB - NightVision for kino
-* Lexi - Janus and Shield Doors Code
-* madjawa - making out a world model out of the Zatniktel view model
-* micropro - ancient shield generator device, first Stargate models
-* miriam - made a worldmodel out of the hand device, first Stargate models
-* PyroSpirit - Overloader, asuran beam, dakara, naquadah bomb, ori cannon, personal shield and more code.
-* René (Stargate Fan) - sounds
-* Roltzy - sodan cloaking device worldmodel
-* RononDex - base codes of DHD, gates, ring panels, vehicles, bullets, tracers and much more...
-* Rothon - original GDO code
-* StargateTC: Legacy Team - Zatniktel Model
-* Stargate: The Last Stand Team - Hand Device Model, Anubis Guard and Heavy Soldier Player Model (Vertical Game Studios)
-* Shanjaq - Help in the Facepunch thread
-* Trekkie0 - Help in the Facepunch thread
-* Warkanum - Supergate Base Code
-* WeltEnSTurm - Gravity Controller
-* Zup - original gates model
+* [AlexALX](https://github.com/AlexALX)
+	* Code.
+	* The group system.
+	* Bug fixes.
+	* Mapping.
+* Locutus_1
+	* Sounds.
+* [Orrila](https://github.com/orrila)
+	* Wiki.
+	* Site administration.
+	* [gm_area51_rc1 gatespawner](https://github.com/RafaelDeJongh/cap/commit/42e0f9a31dfe87e3913aa81fe49b53e22a6638bb).
+* [Rafaël De Jongh](https://github.com/RafaelDeJongh)
+	* Texturing.
+	* Shaders.
+	* Modeling.
+	* UV mapping.
+	* VGUI.
+	* Site administration.
+* Assassin21
+	* Code.
+	* Models.
+* Iziraider
+	* Models.
+	* Textures.
+* Llapp
+	* Code.
+	* SFX.
+	* Site administration.
+* Madman07
+	* Code.
+	* Models.
+	* UV mapping.
+* RononDex
+	* Code for ships & model clipping.
+	* Base code for DHDs, stargates, ring panels, vehicles, bullets, tracers, etc.
+* Art Of War
+	* P90 SWEP.
+	* Wraith weapons.
+* Blazemann
+	* Code.
+* fdinasty
+	* VGUI for concept HUDs & SGA glyphs.
+* [Gmod4phun](https://github.com/Gmod4phun)
+	* [#49](https://github.com/RafaelDeJongh/cap/pull/49).
+* Itbankrock
+	* World model for P90 SWEP.
+* Lotus006
+	* Assistance in the Facepunch Forum thread.
+* MarkJaw
+	* Modeling.
+	* UV mapping.
+	* Texturing.
+* Pac_187
+	* Texturing help with base textures.
+* ProgSys
+	* Textures.
+	* Models.
+* Remus
+	* TAC compile.
+* Strelok
+	* Sounds for the P90 SWEP.
+* THE DOCTOR
+	* Illustrator detail.
+	* Event horizon for the supergate.
+* Tiny
+	* Models.
+	* Textures.
+* Zsigmond.daniel
+	* Event horizon for the universe stargate.
+	* Models.
+* aVoN
+	* Base code for DHDs, stargates, ring panels, vehicles, bullets, tracers, etc.
+* BlackJack
+	* Assistance in the Facepunch Forum thread.
+* BlackMac
+	* Assistance in the Facepunch Forum thread.
+* Brophis
+	* Closing texture for the event horizon.
+* Catdaemon
+	* Base code for transport rings & their panels.
+	* Base code for the wraith harvester.
+* Cebt
+	* Tollan stargate.
+	* Power node.
+* Col Sheppard
+	* Sounds.
+* Dav0r
+	* First stargate models.
+* DrFattyJr
+	* Gate overloader.
+	* Asuran beam.
+	* Dakara.
+	* Naquada bomb.
+	* Ori cannon.
+	* Personal shield.
+* Flyboi
+	* Assistance in the Facepunch Forum thread.
+* Ice D Angel
+	* Assistance in the Facepunch Forum thread.
+* Jeremy
+	* Assistance in the Facepunch Forum thread.
+* jdm12989
+	* Original ZPM.
+* JinTo
+	* Custom physics library, inspired aVoN with his Garry's Mod 9 stargate.
+* KillerRabbit
+	* First stargate models.
+* Lantis
+	* New sounds for the SG-1, infinity and movie stargates.
+* LEETNOOB
+	* Night vision for the kino.
+* Lexi
+	* Janus and shield doors code.
+* madjawa
+	* World model for the zat'nik'tel.
+* micropro
+	* Ancient shield generator.
+	* First stargate models.
+* miriam
+	* World model for the goa'uld hand device.
+	* First stargate models.
+* PyroSpirit
+	* Gate overloader.
+	* Asuran beam.
+	* Dakara.
+	* Naquada bomb.
+	* Ori cannon.
+	* Personal shield.
+* René (Stargate Fan)
+	* Sounds.
+* Roltzy
+	* World model for the sodan cloak.
+* Rothon
+	* Original GDO code.
+* StargateTC: Legacy Team
+	* Model for the zat'nik'tel.
+* Stargate: The Last Stand Team/Vertical Game Studios
+	* Model for the goa'uld hand device.
+	* Models for the anubis guard and heavy soldier.
+* Shanjaq
+	* Assistance in the Facepunch Forum thread.
+* Trekkie0
+	* Assistance in the Facepunch Forum thread.
+* Warkanum
+	* Base code for the supergatre.
+* WeltEnSTurm
+	* Gravity controller.
+* Zup
+	* Original stargate models.
+* [viral32111](https://github.com/viral32111)
+	* Main fork maintainer.
+* [CryptAlchemy](https://github.com/CryptAlchemy)
+	* [3 new alarm sounds](https://github.com/conspiracy-servers/stargate/commit/0f9cae0e290f65809396703abcd700751e6ffd7c) (originally from [#4](https://github.com/RafaelDeJongh/cap_resources/pull/4)).
+* [TheSkagraTwo](https://github.com/TheSkagraTwo)
+	* [Atlantis gate bug fixes](https://github.com/conspiracy-servers/stargate/commit/ffc0b9ae834d7c46b58dff5b1bd175d61261dba6) (originally from [#89](https://github.com/RafaelDeJongh/cap/pull/89)).
