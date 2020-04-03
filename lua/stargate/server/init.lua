@@ -91,16 +91,18 @@ function StarGate.LoadConfig(p,cmd,args)
 			if (file.Exists("stargate/convars.txt","DATA")) then
 				file.Write("stargate/cfg/convars.txt",file.Read("stargate/convars.txt","DATA"));
 				file.Delete("stargate/convars.txt")
-			end                                                      
+			end
 			file.Delete("stargate/config.txt")
-			file.Delete("stargate/how to create your own config.txt")
+			-- file.Delete("stargate/how to create your own config.txt")
 		end
 		if (file.Exists("lua/data/stargate/config.lua","GAME")) then
 			file.Write("stargate/cfg/config.txt",file.Read("lua/data/stargate/config.lua","GAME"));
 		end
+		--[[
 		if (file.Exists("lua/data/stargate/how to create your own config.lua","GAME")) then
 			file.Write("stargate/cfg/how to create your own config.txt",file.Read("lua/data/stargate/how to create your own config.lua","GAME"));
 		end
+		]]
 		local ini = INIParser:new("stargate/cfg/config.txt",false);
 		local custom_config = INIParser:new("stargate/cfg/custom_config.txt",false);
 		-- Merge our custom config with the default one
