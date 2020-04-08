@@ -1,6 +1,6 @@
 # License
 
-**The Stargate Carter Addon Pack is licensed under the Creative Commons [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.**
+**The Stargate Carter Addon Pack is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.**
 
 We’re open developers and love to share our work, however we would like to ask anyone who would wants to remix, transform or build upon our material to first contact us asking permission before you would publish the modifications.
 
