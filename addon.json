@@ -1,10 +1,11 @@
-﻿{
+{
 	"title": "Stargate",
 	"type":	"tool",
 	"tags":	["roleplay", "realism"],
 	"description": "An actively maintained version of the popular CAP addon for Garry's Mod.",
 	"ignore": [
-		"docs",
+		".git/*",
+		"docs/*",
 		"README.md",
 		"LICENSE.md",
 		"SECURITY.md"
