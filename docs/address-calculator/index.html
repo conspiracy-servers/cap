@@ -31,7 +31,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 		<!-- Basic information -->
 		<meta name="language" content="GB">
-		<meta name="revised" content="Wednesday 8th April 2020, 4:59 PM BST">
+		<meta name="revised" content="Wednesday 9th April 2020, 5:00 PM BST">
 		<meta name="url" content="https://conspiracy-servers.github.io/stargate/address-calculator">
 
 		<!-- Description -->
@@ -69,9 +69,11 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 		<link rel="stylesheet" href="css/cayman/github.css" type="text/css">
 		<link rel="stylesheet" href="css/cayman/main.css" type="text/css">
 		<link rel="stylesheet" href="css/overrides.css" type="text/css">
+		<link rel="stylesheet" href="css/custom.css" type="text/css">
 
 		<!-- External scripts -->
 		<script src="js/lib/jquery-3.4.1.min.js"></script>
+		<script src="js/algorithm.js"></script>
 	</head>
 	<body>
 		<!-- Header -->
@@ -79,23 +81,69 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 			<h1 class="project-name">Stargate World Position Address Calculator</h1>
 			<h2 class="project-tagline">A calculator to convert world positions into Stargate addresses with consistency. If this was implemented into Carter's Addon Pack, it would make the Stargate network behave close to how it does in the official series!</h2>
 
+			<!--
 			<a class="btn" href="#python">Python</a>
 			<a class="btn" href="#javascript">JavaScript</a>
 			<a class="btn" href="#csharp">C#</a>
 			<a class="btn" href="#cplusplus">C/C++</a>
 			<a class="btn" href="#lua.">Lua</a>
 			<a class="btn" href="#pseudocode">Pseudocode</a>
+			-->
 		</header>
 
 		<!-- Content -->
 		<main id="content" class="main-content">
-			<h1>Under Construction</h1>
-			<p>This website is currently in development until further notice.<br>
-			For more information and live updates, please check the <a href="https://github.com/conspiracy-servers/stargate">GitHub repository</a>.
-			<br><br>
-			I have completed a Python prototype of this calculator, however I still need to port it to the other languages shown on the buttons above.</p>
+			<h1>Calculator</h1>
+
+			<!-- Input -->
+			<form id="input-form" action="javascript:void(0);">
+				<strong>X</strong> <input id="x-position" type="number" placeholder="0" step="0.001" min="-16384" max="16384" title="The position should be within the map bounds (-16,384.0 to 16,384.0)." autofocus required><br>
+				<strong>Y</strong> <input id="y-position" type="number" placeholder="0" step="0.001" min="-16384" max="16384" title="The position should be within the map bounds (-16,384.0 to 16,384.0)." required><br>
+				<strong>Z</strong> <input id="z-position" type="number" placeholder="0" step="0.001" min="-16384" max="16384" title="The position should be within the map bounds (-16,384.0 to 16,384.0)." required><br>
+	
+				<br>
+
+				<strong>Offset:</strong> <select id="offset" title="The distance offset." required>
+					<option value="0" title="Within the same galaxy. For example, Earth to the Alpha Site." selected="selected">Intragalactic</option>
+					<option value="1" title="One galaxy to another. For example, Earth to Atlantis.">Intergalactic</option>
+					<option value="2" title="One univerise to another. For example, Earth to Destiny.">Interuniversal</option>
+				</select><br>
+				<strong>Origin:</strong> <select id="origin" title="Your point of origin." required>
+					<option value="0" selected="selected">Earth</option>
+					<option value="1">Abydos</option>
+				</select><br>
+
+				<br>
+
+				<input type="submit" id="submit-button" value="Calculate address">
+				<input type="reset" id="reset-button" value="Reset to default">
+				<input type="button" id="random-button" value="Randomize">
+			</form>
+
+			<!-- Output -->
+			<p id="address" class="address-output" style="margin-bottom: 0;"></p>
+			<div id="address-box" class="highlighter-rouge">
+				<div class="highlight">
+					<pre class="highlight"><code id="address-english"></code></pre>
+				</div>
+			</div>
+
+			<br><hr>
+
+			<!-- Notes -->
+			<h2>Notes</h2>
+			<ul>
+				<li>Stargates within ~132 source engine units of range will have the same address.</li>
+				<li>The offset works similar to the existing galaxy system already in CAP, where <code class="highlighter-rouge">@</code> and <code class="highlighter-rouge">@!</code> simply represent the offset. There is no custom group defintions like <code class="highlighter-rouge">M@</code>, <code class="highlighter-rouge">P@</code>, <code class="highlighter-rouge">U@#</code>, etc.</li>
+				<li>This uses all of the 39 symbols available on a stargate.</li>
+			</ul>
+
+			<!-- Feedback -->
+			<h2>Help make this a reality!</h2>
+			<p>You can give your feedback by leaving a comment on <a href="https://github.com/conspiracy-servers/stargate/issues/7">this GitHub issue</a>. If you don't have anything to say, you can show your support by reacting to the original issue thread :D</p>
 
 			<!-- Footer -->
+			<br>
 			<footer class="site-footer">
 				<span class="site-footer-owner">Made with <span style="color:#d1599b;">&lt;3</span> by viral32111, for the future of the Carter's Addon Pack project and community.</span><br>
 				
@@ -103,5 +151,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 				<span class="site-footer-credits">This website design is based on <a href="https://github.com/pages-themes/cayman">Cayman</a>, a theme for <a href="https://pages.github.com/">GitHub Pages</a>.</span>
 			</footer>
 		</main>
+
+		<script src="js/form.js"></script>
 	</body>
 </html>

@@ -1,0 +1,90 @@
+/*
+Stargate World Position Address Calculator - A calculator for converting world positions to Stargate addresses.
+Copyright (C) 2020 viral32111
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+@font-face {
+	font-family: 'Stargate Address Glyphs Concept';
+	src: url('../fonts/stargate-concept.ttf') format('truetype');
+}
+
+.address-output {
+	font-family: 'Stargate Address Glyphs Concept', Fallback, sans-serif;
+	font-size: 80px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 55em) {
+	.address-output {
+		font-size: 40px;
+	}
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type='number'] {
+	width: 150px;
+	margin-bottom: 8px;
+	border-radius: 0px;
+	outline: none;
+	border: none;
+	border-bottom: 1px dotted #8a8a8a;
+	-moz-appearance: textfield;
+}
+
+input[type='number']:hover {
+	border-bottom: 1px dotted #000000;
+}
+
+select {
+	margin-bottom: 8px;
+	outline: none;
+	border: none;
+	border-bottom: 1px dotted #8a8a8a;
+
+	width: 150px;
+	background: url('../img/down-arrow.png') no-repeat right;
+	-webkit-appearance: none;
+	background-position-x: 126px;
+}
+
+input[type='submit'], input[type='reset'], input[type='button'] {
+	font-size: 16px;
+	padding: 5px;
+	padding-right: 8px;
+	padding-left: 8px;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid #c2c2c2;
+	background-color: #f5f5f5;
+}
+
+input[type='submit']:hover, input[type='reset']:hover, input[type='button']:hover {
+	background-color: #f0f0f0;
+}
+
+input[type='submit']:active, input[type='reset']:active, input[type='button']:active {
+	background-color: #e3e3e3;
+}
+
+#address, #address-box {
+	display: none;
+}
