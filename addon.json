@@ -2,12 +2,11 @@
 	"title": "Stargate",
 	"type":	"tool",
 	"tags":	["roleplay", "realism"],
-	"description": "A modified version of the popular CAP addon for Garry's Mod.",
+	"description": "An actively maintained version of the popular CAP addon for Garry's Mod.",
 	"ignore": [
+		"docs",
 		"README.md",
 		"LICENSE.md",
-		"INSTALLATION.md",
-		"FAQ.md",
-		"CREDITS.md"
+		"SECURITY.md"
 	]
 }
