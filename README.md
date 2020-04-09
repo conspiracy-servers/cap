@@ -7,3 +7,19 @@ CAP (Carter's Addon Pack) covers many themes found in Stargate, such as Lantean 
 From piloting starships to building bases, the Stargate Carter Pack provides players with great replayability, creativity, and more!
 
 More information can be found in the Wiki located here: https://github.com/RafaelDeJongh/cap/wiki
+
+***
+
+[Installation Guide](https://github.com/conspiracy-servers/stargate/wiki/Installation-Guide).
+
+[Custom Config Instructions](https://github.com/conspiracy-servers/stargate/wiki/Custom-Configuration).
+
+[Gatespawner Folders](https://github.com/conspiracy-servers/stargate/wiki/Custom-Configuration#gatespawner-folders)
+
+[Frequently Asked Questions](https://github.com/conspiracy-servers/stargate/wiki/Frequently-Asked-Questions).
+
+[Contributor Credits](https://github.com/conspiracy-servers/stargate/wiki/Contributor-Credits).
+
+[Custom Font Credits](https://github.com/conspiracy-servers/stargate/wiki/Contributor-Credits#credit-for-custom-fonts).
+
+[Font Explanation](https://github.com/conspiracy-servers/stargate/wiki/Documentation#font-explanation).
