@@ -10,6 +10,8 @@ More information can be found in the Wiki located here: https://github.com/Rafae
 
 ***
 
+[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2055587876).
+
 [Installation Guide](https://github.com/conspiracy-servers/stargate/wiki/Installation-Guide).
 
 [Custom Config Instructions](https://github.com/conspiracy-servers/stargate/wiki/Custom-Configuration).
