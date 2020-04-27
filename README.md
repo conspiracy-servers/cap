@@ -10,7 +10,7 @@ As [the Carter Addon Pack's team said on their wiki page](https://github.com/Raf
 Check out the [installation guide](https://github.com/conspiracy-servers/stargate/wiki/Installation-Guide) on the wiki for assistance with downloading & installing the addon from either GitHub or the Steam Workshop. 
 
 ## How can I report a bug?
-If you've found an issue, error, or bug with this addon then please [open a new issue](https://github.com/conspiracy-servers /stargate/issues/new) and try to give me as much detail as possible. If you've found a security vulnerability though, please don't create a public issue. Instead, follow the guidelines detailed in [this file](https://github.com/conspiracy-servers/stargate/blob/master/SECURITY.md).
+If you've found an issue, error, or bug with this addon then please [open a new issue](https://github.com/conspiracy-servers/stargate/issues/new) and try to give me as much detail as possible. If you've found a security vulnerability though, please don't create a public issue. Instead, follow the guidelines detailed in [this file](https://github.com/conspiracy-servers/stargate/blob/master/SECURITY.md).
 
 ## How do I suggest a feature?
 We're always open to suggestions and feedback, if you want to put forth your ideas then [open a new issue](https://github.com/conspiracy-servers/stargate/issues/new) and speak about it there, or if you've got the coding skills then by all means go ahead and [open up a pull request](https://github.com/conspiracy-servers/stargate/pulls). We love hearing thoughts from other developers and like minded individuals :D
