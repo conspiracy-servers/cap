@@ -98,6 +98,11 @@ res_trans_interval = 0.1
 # allowed resources to transfer, separate by comma, keep empty to allow any resources, example usage: water,oxygen,heavy water
 res_classes = 
 
+#### Stargate Iris config
+[iris]
+# Allow pass through with Nox Hands
+nox_bypass=true
+
 #### Stargate gatespawner config
 [gatespawner]
 # Allow spawn iris on gatespawner gates by players
@@ -290,6 +295,10 @@ nuke_explode = true
 [ring]
 # These entity types are disallowed to teleportation
 classnames = cloaking,shield,physgun_beam,Beam_Drawer,predicted_viewmodel,player_manager,bodyque,ai_network,info_player_start,water_lod_control,scene_manager,network,soundent,gmod_ghost,beam_drawer2b,logic_case
+# Allowed Rings to fire laser
+class = ancient,goauld
+# Secret Code to fire laser
+code = 3571
 
 #### Ring panels
 [ring_panel]

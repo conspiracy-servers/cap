@@ -254,6 +254,11 @@ sg_sets[stargate][res_trans_interval][desc] = Resource transfer cycle inteval in
 sg_sets[stargate][res_classes] = Allowed resource classes
 sg_sets[stargate][res_classes][desc] = Allowed resource classes to transfer, separate by comma, keep empty to allow any resources\nexample usage: water,oxygen,heavy water
 
+// Iris
+sg_sets[iris] = Iris
+sg_sets[iris][nox_bypass] = Nox Hands Bypass
+sg_sets[iris][nox_bypass][desc] = Allow anyone with Nox Hands equipped to bypass an iris
+
 // Stargate gatespawner config
 sg_sets[gatespawner] = Gatespawner
 sg_sets[gatespawner][spawn_iris] = Spawn iris on gatespawner gates
@@ -431,6 +436,10 @@ sg_sets[naq_gen_mk2][nuke_explode][desc] = Nuke explosion when overloaded/damage
 sg_sets[ring] = Rings
 sg_sets[ring][classnames] = Disallowed entities
 sg_sets[ring][classnames][desc] = These entity types are disallowed to teleportation
+sg_sets[ring][class] = Rings to fire laser
+sg_sets[ring][class][desc] = Possible values (separe with a coma): ancient | goauld
+sg_sets[ring][code] = Rings fire code
+sg_sets[ring][code][desc] = Secret code to dial with panel to fire with laser, Set it to -1 or 0 to disable it
 
 // Ring panels
 sg_sets[ring_panel] = Ring panels
